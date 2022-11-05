@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+body {
+  background-image: linear-gradient(
+    to bottom,
+    #3a055d,
+    #470676,
+    #540890,
+    #600cab,
+    #6b11c7,
+    #7a33d8,
+    #884de9,
+    #9764fa,
+    #ae8dff,
+    #c7b4ff,
+    #e2d9ff,
+    #ffffff
+  );
+}
+
+.header-circulo {
+  height: 100vh;
+  background-image: url("../imagenes/banner-mediocirculo.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-width: 380px;
+}
+
+::placeholder {
+  color: white;
+  text-align: center;
+}
+/* style="background-image: url(./imagenes/bg-2.svg);background-repeat: no-repeat;background-position:center end;background-size: cover;z-index: 2;" */
+.padre {
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+}

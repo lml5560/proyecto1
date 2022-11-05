@@ -1,0 +1,49 @@
+COPIA DEL HEADER CON EL FORMULARIO
+<header>
+        <div class="row header-circulo">
+            <div class="col col-12 col-md-6 m-auto p-4">
+                <!-- style="word-wrap:break-word" -->
+                <h1 class="text-white col-8 col-md-12">Regalá una Giftcard
+                    y que ell@s elijan entre más de 150 marcas</h1>
+                <p class="text-white pt-2">¡Rápido, simple y virtual!</p>
+                <a href="" class="border p-2 text-white text-decoration-none shadow">Conoce mas!</a>
+            </div>
+            <!-- style="background-image: url(./imagenes/bg-2.svg);background-repeat: no-repeat;background-position:center end;background-size: cover;z-index: 2;" -->
+
+            <div class="col col-9 col-md-5 h-5 m-auto text-white p-2">
+
+                <form>
+                    <fieldset class="mb-3">¿Te gustaría que te asesoremos? ... Escribenos</fieldset>
+                    <div class="p-1 mb-4 border rounded-1" style="width: 100%;">
+                        <span> <i class="fa-solid fa-person fa-2x"></i></span>
+                        <input class="bg-transparent" type="text" placeholder="Nombre y Apellido *"
+                            style="width:90%;border: none;outline: none;">
+                    </div>
+
+                    <div class="p-1 mb-4 border rounded-1" style="width: 100%;">
+                        <span> <i class="fa-solid fa-person fa-2x"></i></span>
+                        <input class="bg-transparent" type="text" placeholder="Nombre y Apellido *"
+                            style="width:90%;border: none;outline: none;">
+                    </div>
+                    <div class="p-1 mb-4 border rounded-1" style="width: 100%;">
+                        <span> <i class="fa-solid fa-person fa-2x"></i></span>
+                        <input class="bg-transparent" type="text" placeholder="Nombre y Apellido *"
+                            style="width:90%;border: none;outline: none;">
+                    </div>
+
+                    <div class="p-1 mb-4 border rounded-1" style="width: 100%;">
+                        <span> <i class="fa-solid fa-person fa-2x"></i></span>
+                        <textarea name="" id="" cols="30" rows="2" class="bg-transparent" type="text"
+                            placeholder="Dejanos tu mensaje *" style="width:90%;border: none;outline: none;"></textarea>
+
+                    </div>
+
+
+
+
+                    <button class="mb-4" type="submit" class="btn btn-primary mb-5">Submit</button>
+                </form>
+            </div>
+
+        </div>
+    </header>
